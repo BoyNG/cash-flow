@@ -1,0 +1,24 @@
+.cabinet_order .input{
+    border: 2px solid #ffd073;
+    height:50px;
+    padding:0 10px;
+    border-radius:15px 0 15px 0 ;
+    box-sizing:border-box;
+    background:none;
+	color:#e4e4e4;
+    font-size:28px;
+    max-width:300px;
+    width:100%;
+    text-align:center;
+    float:left;
+    display:block;
+    margin:5px;
+}
+.cabinet_order .input[type="submit"]:hover{
+    background:#d9aa00;
+	color: #000000;
+}
+
+.clear_both {
+    clear: both;
+}
