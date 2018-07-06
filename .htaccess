@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^cabinet:([^/\.]+)/?$ index.php?page=cabinet&cabpage=$1 [L,QSA]
+RewriteRule ^REF:([^/\.]+)/?$ index.php?page=sign&ref=$1 [L]
+RewriteRule ^([^/\.]+)/?$ index.php?page=$1 [L]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 176.98.69.217
